@@ -15,5 +15,6 @@ public class NDEncryptionAdapter implements IEncryption {
         NDAlgorithm nd = new NDAlgorithm();
         String answer = nd.encrypt(msj, key.charAt(0), key.charAt(1));
         return answer;
+        
     }
 }
