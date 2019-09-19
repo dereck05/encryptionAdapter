@@ -38,7 +38,7 @@ public class EncryptionObj {
             Properties config = new Properties();
             InputStream configInput = new FileInputStream("conF.conf");
             config.load(configInput);
-            System.out.println(config.getProperty("algoritmo"));
+            //System.out.println(config.getProperty("algoritmo"));
             return config.getProperty("algoritmo");
         } catch(Exception e){
             System.out.println("Error cargando configuración\n" + e.getMessage());

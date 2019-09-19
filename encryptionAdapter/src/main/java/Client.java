@@ -11,9 +11,8 @@
 public class Client {
     public static void main(String[] args) { 
         EncryptionObj obj = new EncryptionObj();
-        obj.loadConfig();
-        //obj.encrypt("AES", "HolaMundoTriste", "nachos");
-        //obj.encrypt("ND", "HolaMundoFeliz", "oe");
+        obj.encrypt("HolaMundoTriste", "nachos");
+        obj.encrypt("HolaMundoFeliz", "oe");
     }
     
         
